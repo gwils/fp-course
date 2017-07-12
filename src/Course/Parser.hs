@@ -91,7 +91,7 @@ valueParser =
 
 -- | Return a parser that always fails with the given error.
 --
--- >>> isErrorResult (parse (failed Failed) "abc")
+-- >>> isErrorResult (parse failed "abc")
 -- True
 failed ::
   Parser a
